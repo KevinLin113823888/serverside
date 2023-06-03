@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:3000','https://bejewelled-rugelach-940512.netlify.app', 'https://bejewelled-palmier-26e86d.netlify.app','https://cute-sable-77ab87.netlify.app'],
+    origin: ['http://localhost:3000','https://bejewelled-rugelach-940512.netlify.app', 'https://bejewelled-palmier-26e86d.netlify.app','https://leafy-gecko-996f91.netlify.app'],
     credentials: true,
     allowedHeaders: "Content-Type, Authorization, X-Requested-With",
 }));
